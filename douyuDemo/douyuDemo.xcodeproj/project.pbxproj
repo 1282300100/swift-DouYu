@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75825D1C271E86F000CB138E /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = 75825D1B271E86F000CB138E /* Classes */; };
 		758A8788271C0F060045308A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758A8787271C0F060045308A /* AppDelegate.swift */; };
 		758A878A271C0F070045308A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758A8789271C0F070045308A /* SceneDelegate.swift */; };
-		758A878C271C0F070045308A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758A878B271C0F070045308A /* ViewController.swift */; };
 		758A878F271C0F070045308A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 758A878D271C0F070045308A /* Main.storyboard */; };
 		758A8792271C0F070045308A /* douyuDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 758A8790271C0F070045308A /* douyuDemo.xcdatamodeld */; };
 		758A8794271C0F090045308A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 758A8793271C0F090045308A /* Assets.xcassets */; };
@@ -37,10 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		75825D1B271E86F000CB138E /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
 		758A8784271C0F060045308A /* douyuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = douyuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		758A8787271C0F060045308A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		758A8789271C0F070045308A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		758A878B271C0F070045308A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		758A878E271C0F070045308A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		758A8791271C0F070045308A /* douyuDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = douyuDemo.xcdatamodel; sourceTree = "<group>"; };
 		758A8793271C0F090045308A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -101,9 +101,9 @@
 		758A8786271C0F060045308A /* douyuDemo */ = {
 			isa = PBXGroup;
 			children = (
+				75825D1B271E86F000CB138E /* Classes */,
 				758A8787271C0F060045308A /* AppDelegate.swift */,
 				758A8789271C0F070045308A /* SceneDelegate.swift */,
-				758A878B271C0F070045308A /* ViewController.swift */,
 				758A878D271C0F070045308A /* Main.storyboard */,
 				758A8793271C0F090045308A /* Assets.xcassets */,
 				758A8795271C0F090045308A /* LaunchScreen.storyboard */,
@@ -235,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				758A8797271C0F090045308A /* LaunchScreen.storyboard in Resources */,
+				75825D1C271E86F000CB138E /* Classes in Resources */,
 				758A8794271C0F090045308A /* Assets.xcassets in Resources */,
 				758A878F271C0F070045308A /* Main.storyboard in Resources */,
 			);
@@ -261,7 +262,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				758A878C271C0F070045308A /* ViewController.swift in Sources */,
 				758A8792271C0F070045308A /* douyuDemo.xcdatamodeld in Sources */,
 				758A8788271C0F060045308A /* AppDelegate.swift in Sources */,
 				758A878A271C0F070045308A /* SceneDelegate.swift in Sources */,
@@ -441,6 +441,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -448,6 +449,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -468,6 +470,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -475,6 +478,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
